@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/komik_item"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/komik_thumbnail"
+                android:layout_width="146dp"
+                android:layout_height="208dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+        />
+
+        <TextView
+                android:id="@+id/komik_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KOMIK TITLE"
+                android:layout_below="@id/komik_thumbnail"
+        />
+
+        <LinearLayout
+                android:id="@+id/komik_chapter_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/komik_title">
+
+            <TextView
+                    android:id="@+id/komik_chapter_release"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ch. "
+                    android:textSize="12sp"
+            />
+
+            <TextView
+                    android:id="@+id/komik_chapter_release_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textSize="12sp"
+            />
+
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/komik_chapter_release_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/komik_title"
+                android:text="2 min lalu"
+                android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
