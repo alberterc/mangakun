@@ -15,3 +15,5 @@ It scrapes data from [KomikIndo](https://komikindo.id/).
 
 # Developer
 Albert E (vradnisntlong@gmail.com)
+
+All rights reserved.
