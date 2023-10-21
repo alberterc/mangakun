@@ -14,6 +14,6 @@ It scrapes data from [KomikIndo](https://komikindo.id/).
 - Picasso (image loader) - [docs](https://square.github.io/picasso/)
 
 # Developer
-Albert E (vradnisntlong@gmail.com)
+Albert E (albertenrico.5g@gmail.com)
 
 All rights reserved.
